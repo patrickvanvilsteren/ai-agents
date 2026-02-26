@@ -1,8 +1,6 @@
 import asyncio
 import os
 
-print("API VERSION:", os.getenv("AZURE_OPENAI_API_VERSION"))
-
 from agent_framework import Agent
 from agent_framework.openai import OpenAIChatClient
 from agent_framework.azure import AzureOpenAIChatClient
